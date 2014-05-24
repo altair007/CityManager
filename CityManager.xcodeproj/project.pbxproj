@@ -36,6 +36,7 @@
 		C213C37119309F1A00E38627 /* CityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityManager.h; sourceTree = "<group>"; };
 		C213C37219309F1A00E38627 /* CityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityManager.m; sourceTree = "<group>"; };
 		C2214ADF1930E6460005E150 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		C2214AE01930E8B30005E150 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		C213C36419307AE600E38627 /* CityManager */ = {
 			isa = PBXGroup;
 			children = (
+				C2214AE01930E8B30005E150 /* README.md */,
 				C2214ADF1930E6460005E150 /* area.plist */,
 				C213C37019307B1B00E38627 /* area.txt */,
 				C213C36519307AE600E38627 /* main.m */,
