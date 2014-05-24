@@ -7,15 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CityManager.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        CityManager * manager = [[CityManager alloc] initWithContentsOfFile:@"/Users/lanou3g/工程/重要工程/CityManager/CityManager/area.plist"];
+        NSLog(@"%@", manager.infoOfCities);
     }
     return 0;
 }

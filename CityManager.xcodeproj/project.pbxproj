@@ -10,6 +10,7 @@
 		C213C36319307AE600E38627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C213C36219307AE600E38627 /* Foundation.framework */; };
 		C213C36619307AE600E38627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C213C36519307AE600E38627 /* main.m */; };
 		C213C36A19307AE600E38627 /* CityManager.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C213C36919307AE600E38627 /* CityManager.1 */; };
+		C213C37319309F1A00E38627 /* CityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C213C37219309F1A00E38627 /* CityManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,10 @@
 		C213C36519307AE600E38627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C213C36819307AE600E38627 /* CityManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CityManager-Prefix.pch"; sourceTree = "<group>"; };
 		C213C36919307AE600E38627 /* CityManager.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CityManager.1; sourceTree = "<group>"; };
+		C213C37019307B1B00E38627 /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
+		C213C37119309F1A00E38627 /* CityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityManager.h; sourceTree = "<group>"; };
+		C213C37219309F1A00E38627 /* CityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityManager.m; sourceTree = "<group>"; };
+		C2214ADF1930E6460005E150 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +78,13 @@
 		C213C36419307AE600E38627 /* CityManager */ = {
 			isa = PBXGroup;
 			children = (
+				C2214ADF1930E6460005E150 /* area.plist */,
+				C213C37019307B1B00E38627 /* area.txt */,
 				C213C36519307AE600E38627 /* main.m */,
 				C213C36919307AE600E38627 /* CityManager.1 */,
 				C213C36719307AE600E38627 /* Supporting Files */,
+				C213C37119309F1A00E38627 /* CityManager.h */,
+				C213C37219309F1A00E38627 /* CityManager.m */,
 			);
 			path = CityManager;
 			sourceTree = "<group>";
@@ -139,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C213C37319309F1A00E38627 /* CityManager.m in Sources */,
 				C213C36619307AE600E38627 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +263,7 @@
 				C213C36F19307AE600E38627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
